@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <androidx.cardview.widget.CardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="100dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/receiveImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/receiveName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lê Anh Thư"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/quicksand"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/receiveMess"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="chào bạn, bạn có phải là người up cái tus này không?"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/quicksand"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

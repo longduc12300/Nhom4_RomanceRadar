@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633206909876",
+    "project_id": "romanceradar-eb09f",
+    "storage_bucket": "romanceradar-eb09f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633206909876:android:ca6eba0c83444ec14de0e1",
+        "android_client_info": {
+          "package_name": "com.example.Nhom4_RomanceRadar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633206909876-jr3jpfvoe62c467d0jd8b113ldamvjnc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Nhom4_RomanceRadar",
+            "certificate_hash": "b8729d9fd37a200c70f4f78d97bb5aad4bd1de9a"
+          }
+        },
+        {
+          "client_id": "633206909876-blt74lk8het0b6idvuij2bov9gr0d8nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHgz-ODGqxD0YGpcldJER_pXneiI1Xtzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633206909876-blt74lk8het0b6idvuij2bov9gr0d8nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
